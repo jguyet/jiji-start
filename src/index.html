@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title in="this.title ? this.title : ''">Jiji-js.io</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- og -->
+        <meta property="og:site_name" content="Jiji-js.io">
+        <meta property="og:title" content="Micro Framework front-end developper - jiji-js.io">
+        <meta property="og:description" content="Getting started application of demonstration...">
+        <meta property="og:image" content="https://jiji-js.io/public/jiji-js.png">
+        
+        <!-- necessary dependencies -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="./index.js"></script>
+    </head>
+
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" click="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a class="w3-bar-item w3-button w3-padding-large"><img height="25" src="public/logo.png"/></a>
+              <a class="w3-bar-item w3-button w3-padding-large w3-hover-white">Welcome</a>
+              <a link href="#facebook" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+              <a href="https://www.instagram.com/jeremyguyet" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+              <a link href="#twitter" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right-item"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+              <a class="w3-bar-item w3-button w3-padding-large">Welcome</a>
+            </div>
+        </div>
+        <!-- jiji router -->
+        <div class="router"></div>
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </body>
+</html>

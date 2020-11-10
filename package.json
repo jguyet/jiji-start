@@ -1,0 +1,16 @@
+{
+    "private": false,
+    "name": "$application-name",
+    "scripts": {
+        "compile": "rm -rf dist; mkdir dist ; node node_modules/browserify/bin/cmd.js main.js > dist/index.js; node node_modules/minify/bin/minify.js dist/index.js > dist/index-min.js ; cp index.html ./dist/index.html"
+    },
+    "devDependencies": {
+        "browserify": "^17.0.0",
+        "minify": "^6.0.1"
+    },
+    "dependencies": {
+        "jiji-js": "0.0.12"
+    },
+    "description": "Test",
+    "main": "main.js"
+}
