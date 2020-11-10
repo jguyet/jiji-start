@@ -1,1 +1,1 @@
-## $application-name
+## application-name
