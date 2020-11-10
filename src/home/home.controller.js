@@ -2,7 +2,7 @@ const Jiji = require("jiji-js");
 
 module.exports = {
     path: "/", controller: {
-        title: "$application-name",
+        title: "application-name",
         command: "$ ji new",
         constructor: function (callback) {
             /* before mount */
