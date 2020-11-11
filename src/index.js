@@ -1,8 +1,9 @@
 const Jiji = require("jiji-js");
 
+Jiji.protocols = ["https"]; // for only https in production ["https", "http"] by default
 Jiji.DetectChange.interval = 200; // set interval detection of 200 is 100 by default
 
-Jiji.initialize("browser", () => {
+Jiji.initialize(() => {
     Jiji.Router.initialize([
         { path: "/home", controller: require("./home/home.controller") }, // route /home pointe to that controller
         { path: "/", redirect: "/home" }, // route / redirect to /home
