@@ -7,7 +7,7 @@ Result :
 
 References :
 
-[Jiji-js.io]: https://jiji-js.io  Documentation website
+[Jiji-js.io]: https://jiji-js.io  Documentation website  
 [Jiji-cli]: https://github.com/jguyet/jiji-cli/ command line helper for working with Jiji-js
 ````shell
 npm install -g jiji-cli
