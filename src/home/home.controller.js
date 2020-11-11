@@ -6,9 +6,11 @@ module.exports = {
         command: "$ ji new",
         constructor: function (callback) {
             /* before mount */
+            console.log("construct");
             callback();
         },
-        mount: function () {
+        mounted: function () {
+            console.log("mounted");
         },
         destroy: function () {
             console.log(`destroy ${this.title}`);
