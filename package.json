@@ -13,5 +13,5 @@
         "jiji-js": "0.0.14"
     },
     "description": "application-name description",
-    "main": "src/main.js"
+    "main": "src/index.js"
 }
