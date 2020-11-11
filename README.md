@@ -8,11 +8,11 @@ Result :
 References :
 
 [Jiji-js.io]: https://jiji-js.io  Documentation website  
-[Jiji-cli]: https://github.com/jguyet/jiji-cli/ command line helper for working with Jiji-js
+[Jiji-cli]: https://github.com/jguyet/jiji-cli command line helper for working with Jiji-js
 ````shell
 npm install -g jiji-cli
 ````
-[Jiji-js]: https://github.com/jguyet/jiji-js/ Micro framework
+[Jiji-js]: https://github.com/jguyet/jiji-js Micro framework
 ````shell
 npm install jiji-js
 ````
