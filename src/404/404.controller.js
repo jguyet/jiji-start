@@ -1,8 +1,6 @@
 const Jiji = require("jiji-js");
 
 module.exports = {
-    title: "application-name",
-    command: "$ ji new",
     constructor: function (callback) {
         /* before mount */
         console.log("construct");
@@ -14,5 +12,5 @@ module.exports = {
     destroy: function () {
         console.log(`destroy ${this.title}`);
     },
-    innerHTML: require("./home.html")
+    innerHTML: require("./404.html")
 };

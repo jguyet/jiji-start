@@ -107,6 +107,9 @@ body {
     outline: 0
 }
 
+.w3-jumbo {
+    overflow: scroll;
+}
 
 /* MARKDOWN CSS */
 
