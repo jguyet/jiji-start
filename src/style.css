@@ -19,10 +19,9 @@ button {
     font-size: 200px
 }
 
-.page-container {
+.router .route {
     top: 50px;
     position: relative;
-    display: flex;
 }
 
 body {

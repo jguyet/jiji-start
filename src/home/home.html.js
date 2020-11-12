@@ -1,6 +1,6 @@
 module.exports = /* html */`
 <div>
-<header class="w3-container w3-center" style="padding:128px 16px">
+<header class="w3-container w3-center" style="padding:100px 16px">
   <h1 class="w3-margin w3-jumbo">{{ this.title }} app is running!</h1>
   <p class="w3-xlarge">Resources</p>
   <div>
