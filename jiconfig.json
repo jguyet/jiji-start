@@ -1,4 +1,4 @@
 {
     "device": "browser",
-    "main": "src/index.js"
+    "main": "src/main.index.js"
 }
